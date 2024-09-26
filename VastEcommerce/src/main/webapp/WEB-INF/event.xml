@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<actions>
+<action uri="/viewall" class="com.vast.web.viewAllEmployeeAction" />
+<action uri="/viewbydept" class="com.vast.web.ViewByDeptAction"/>
+<action uri="/viewbyid" class="com.vast.web.ViewByIdAction"/>
+<action uri="/addemp" class="com.vast.web.AddEmployee"/>
+<event uri="/login" class="com.vast.web.DoLogin" />
+<event uri="/logout" class="com.vast.web.DoLogout" />
+
+</actions>
